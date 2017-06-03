@@ -2,7 +2,7 @@
 <head>
 <title>Chakradar Raju Github IO Links</title>
 <style>
-  a {
+  a.link {
     font-family: arial;
     color: white;
     text-decoration: none;
@@ -16,8 +16,10 @@
     border-radius: 50%;
     border: solid white 4px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-left: auto;
+    margin-top: auto;
   }
-  a:hover {
+  a.link:hover {
     background: rgba(0, 0, 0, 1);
   }
   .name {
@@ -27,38 +29,53 @@
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
     line-height: 50px;
   }
+  .logo img {
+    width: 50px;
+  }
+	.logo:hover img {
+    opacity: 1;
+    filter: none;
+  }
+  .logocontainer {
+    margin: 0 auto;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px 5px;
+    margin-top: 20px;
+  }
 </style>
 </head>
-<body style="background-image: url(http://chakradarraju.github.io/bg.jpg); background-size: cover; background-attachment: fixed;">
+<body style="background-image: url(http://chakradarraju.github.io/img/bg.jpg); background-size: cover; background-attachment: fixed;">
   <div style="width: 100%; overflow: auto;">
-    <div style="position: fixed; width: 100%; height: 100%; color: white; opacity: 0.4; filter: blur(5px); z-index: -1;"></div>
     <div style="float: left; width: 50%; height: 100%; text-align: center; display: flex; flex-direction: column; justify-content: center;">
       <div>
         <img src="http://chakradarraju.github.io/dp.jpg" class="dp" /><br/>
         <span class="name">Chakradar Raju</span><br/>
-        <a href="http://www.facebook.com/chakradarraju" target="_blank">Facebook</a><br/>
-        <a href="http://www.github.com/chakradarraju" target="_blank">Github</a><br/>
-        <a href="http://www.linkedin.com/in/chakradar-raju-36319722/" target="_blank">LinkedIn</a><br/>
-        <a href="http://www.instagram.com/chakradarraju/" target="_blank">Instagram</a></br>
-        <a href="http://www.topcoder.com/members/chakradarraju/" target="_blank">Topcoder</a><br/>
-        <a href="http://www.spoj.com/users/chakradarraju/" target="_blank">SPOJ</a><br/>
-        <a href="http://stackoverflow.com/users/1119979/chakradar-raju" target="_blank">StackOverflow</a><br/>
-        <a href="http://www.twitter.com/chakradarraju" target="_blank">Twitter</a><br/>
-        <a href="http://www.youtube.com/chakradarraju" target="_blank">Youtube</a><br/>
-        <a href="https://www.quora.com/profile/Chakradar-Raju" target="_blank">Quora</a><br/>
+        <div class="logocontainer">
+          <a class="logo" href="http://www.facebook.com/chakradarraju" target="_blank"><img src="img/fb.png" /></a>
+          <a class="logo" href="http://www.github.com/chakradarraju" target="_blank"><img src="img/github.png" /></a>
+          <a class="logo" href="http://www.linkedin.com/in/chakradar-raju-36319722/" target="_blank"><img src="img/linkedin.png" /></a>
+          <a class="logo" href="http://www.instagram.com/chakradarraju/" target="_blank"><img src="img/instagram.png" /></a>
+          <a class="logo" href="http://www.topcoder.com/members/chakradarraju/" target="_blank"><img src="img/topcoder.png" /></a>
+          <a class="logo" href="http://www.spoj.com/users/chakradarraju/" target="_blank"><img src="img/spoj.png" /></a>
+          <a class="logo" href="http://stackoverflow.com/users/1119979/chakradar-raju" target="_blank"><img src="img/stackoverflow.png" /></a>
+          <a class="logo" href="http://www.twitter.com/chakradarraju" target="_blank"><img src="img/twitter.png" /></a>
+          <a class="logo" href="http://www.youtube.com/chakradarraju" target="_blank"><img src="img/youtube.png" /></a>
+          <a class="logo" href="https://www.quora.com/profile/Chakradar-Raju" target="_blank"><img src="img/quora.png" /></a>
+        </div>
       </div>
     </div>
     <div style="float: right; width: 50%; height: 100%; display: flex; flex-direction: column; justify-content: center;">
       <div style="position: fixed; width: 100%; height: 100%; background-color: white; opacity: 0.4; filter: blur(5px); z-index: -1;"></div>
       <div style="margin: 20px;">
-        <a href="http://chakradarraju.github.io/modernart/mondrian.html" target="_blank">Mondrian art</a><br/>
-        <a href="http://chakradarraju.github.io/modernart/" target="_blank">Random polygons</a><br/>
-        <a href="http://chakradarraju.github.io/modernart/nexus.html" target="_blank">Nexus</a><br/>
-        <a href="http://chakradarraju.github.io/carrace/" target="_blank">Car race</a><br/>
-        <a href="http://chakradarraju.github.io/todo/" target="_blank">Todo</a><br/>
-        <a href="http://chakradarraju.github.io/musicboard/spooky.html" target="_blank">Spooky music board</a><br/>
-        <a href="http://chakradarraju.github.io/sudokuhelper/" target="_blank">Sudoku helper</a><br/>
-        <a href="http://chakradarraju.github.io/bingo/" target="_blank">Bingo</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/modernart/mondrian.html" target="_blank">Mondrian art</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/modernart/" target="_blank">Random polygons</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/modernart/nexus.html" target="_blank">Nexus</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/carrace/" target="_blank">Car race</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/todo/" target="_blank">Todo</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/musicboard/spooky.html" target="_blank">Spooky music board</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/sudokuhelper/" target="_blank">Sudoku helper</a><br/>
+        <a class="link" href="http://chakradarraju.github.io/bingo/" target="_blank">Bingo</a><br/>
       </div>
     </div>
   </div>
