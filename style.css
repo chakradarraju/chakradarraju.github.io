@@ -6,7 +6,12 @@ body {
 }
 .container {
   width: 100%;
-  overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.divider {
+  border-left: dashed white 2px;
 }
 a.link {
   font-family: arial;
@@ -49,37 +54,51 @@ a.link:hover {
   margin: 20px auto;
 }
 .panel {
-  width: 50%;
   height:100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1 0 100px;
+  overflow-y: auto;
 }
 .panel1 {
-  float: left;
   text-align: center;
 }
-.panel2 {
-  float: right;
-}
-.panel2 div {
-  border-left: dashed white 2px;
-  padding: 90px 20px;
+.panel2 div.linkscontainer {
+  padding: 20px;
   margin: 20px;
 }
+.panel2 div.section {
+  color: white;
+  background-color: darkred;
+  max-width: 300px;
+  margin: 10px;
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+}
 @media (max-width: 700px) {
+  .container {
+    display: block;
+    height: auto;
+    overflow: auto;
+  }
   .panel {
-    width: 100% !important;
-    height: auto !important;
-    float: none !important;
+    height: auto;
     text-align: center;
   }
   .panel2 div {
-    border: none;
     padding: 20px;
   }
   a.phone {
     display: block !important;
+  }
+  .divider {
+    display: none;
+  }
+  .panel2 div.section {
+    padding: 0 !important;
+    margin: 10px auto;
   }
 }
 a.phone {
