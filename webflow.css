@@ -250,7 +250,7 @@
 .rl-padding-global {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-image: url('../images/PXL_20231124_035120889.jpg');
+  background-image: url('images/PXL_20231124_035120889.jpg');
   background-position: 0 0;
   background-size: cover;
   grid-template-rows: auto auto;
@@ -262,7 +262,7 @@
 }
 
 .rl_section_header5 {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/placeholder-image.svg');
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('images/placeholder-image.svg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
